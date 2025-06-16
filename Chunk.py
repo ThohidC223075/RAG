@@ -2,7 +2,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter,Language
 from langchain_community.document_loaders import PyPDFLoader
 
 
-loader = PyPDFLoader('File\Current Essentials of Medicine.pdf')
+loader = PyPDFLoader('File\Current Essentials of Medicine.pdf')#give file path
 
 documents = loader.load()
 
